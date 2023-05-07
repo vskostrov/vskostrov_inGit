@@ -9,6 +9,7 @@ def modification(lst):
     lst.append(first_symbol) #просто добавляем первый символ последним
     return lst
 
+
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 

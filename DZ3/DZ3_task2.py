@@ -11,6 +11,7 @@ def get_list_info(lst):
     average = round(sum(lst) / len(lst), 2) #сумма в списке деленная на кол-во элементов в списке + round округляем до 2х знаков после запятой
     return min_elem, max_elem, sum_list, average
 
+
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
