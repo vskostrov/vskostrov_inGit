@@ -5,6 +5,10 @@
 from statistics import mean
 def get_list_info(lst):
     # Здесь пишем код
+    min_elem = min(lst)
+    max_elem = max(lst)
+    sum_list = sum(lst)
+    average = round(sum(lst) / len(lst), 2) #сумма в списке деленная на кол-во элементов в списке + round округляем до 2х знаков после запятой
     return min_elem, max_elem, sum_list, average
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
