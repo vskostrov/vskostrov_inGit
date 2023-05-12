@@ -5,15 +5,10 @@
 
 def create_phone_number(num_tuple):
     # Здесь нужно написать код
-    code, num3, num4 = '', '', ''
-    for i in range(len(num_tuple)):
-        if i < 3:
-            code += str(num_tuple[i])
-        elif i < 6:
-            num3 += str(num_tuple[i])
-        else:
-            num4 += str(num_tuple[i])
-    str_phone = f"({code}) {num3}-{num4}"
+    dirty_number = ''
+    for i in num_tuple:
+        dirty_number += str(i)
+    str_phone = f"({dirty_number[:3]}) {dirty_number[3:6]}-{dirty_number[6:]}"
     print(str_phone)
     return str_phone
 
