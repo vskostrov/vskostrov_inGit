@@ -18,7 +18,6 @@ def letter_stat(our_str):
     string_our_str = set(our_str) #множество из our_str
     for x in string_our_str: #считаем кол-во вхождений символов из множества
         letters_dict[x] = our_str.count(x)
-    print("Букво-количество:", letters_dict)
     return letters_dict
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
