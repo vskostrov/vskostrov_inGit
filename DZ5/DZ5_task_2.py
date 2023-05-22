@@ -21,7 +21,6 @@ def repeats(our_str):
         else:
             dictionary[x] = 1
         new_str += x + f'_{dictionary.get(x)}'
-    print("new_str:", new_str)
     return new_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

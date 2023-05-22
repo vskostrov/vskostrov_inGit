@@ -34,7 +34,6 @@ def everything_for_your_cat(cats_data):
     our_str = str()
     for x in range(len(dictionary)):
         our_str = f"{': '.join(dictionary.popitem())}\n{our_str}"
-    print("Владельцы да котики:", our_str)
     return our_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
